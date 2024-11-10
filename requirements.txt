@@ -1,0 +1,16 @@
+tensorflow
+pandas
+dvc
+notebook
+numpy
+matplotlib
+seaborn
+python-box==6.0.2
+pyyaml 
+tqdm
+joblib
+types-pyyaml
+scipy
+Flask
+Flask-Cors  # use Flask-Cors if CORS functionality is needed
+-e .
