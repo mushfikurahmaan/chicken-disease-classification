@@ -66,7 +66,7 @@ class Training:
     def train(self, callback_list: list):
 
         self.model.compile(
-        optimizer=Adam(learning_rate=0.001),  # set any specific learning rate or optimizer parameters
+        optimizer=Adam(learning_rate=0.001), loss='binary_crossentropy', metrics=['accuracy'] # set any specific learning rate or optimizer parameters
         )
         
         self.steps_per_epoch = self.train_generator.samples // self.train_generator.batch_size
